@@ -1,19 +1,7 @@
 fileFormatVersion: 2
 guid: d84ecacf4840d19409c1680a8b106e7e
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5673416707919896668
-    second: Rocket-Sheet_0
-  - first:
-      213: 4404041341987112788
-    second: Rocket-Sheet_1
-  - first:
-      213: -6779711900875723572
-    second: Rocket-Sheet_2
-  - first:
-      213: -768614829163187317
-    second: Rocket-Sheet_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -151,19 +139,19 @@ TextureImporter:
       name: Rocket-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 28
-        height: 32
+        x: 1
+        y: 3
+        width: 30
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c50e452df660cbe40800000000000000
-      internalID: 5673416707919896668
+      spriteID: 5d069af0fe15d22448bf0bbaa83bd468
+      internalID: -997586640
       vertices: []
       indices: 
       edges: []
@@ -172,19 +160,19 @@ TextureImporter:
       name: Rocket-Sheet_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 28
-        height: 32
+        x: 32
+        y: 3
+        width: 31
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 457c645544c4e1d30800000000000000
-      internalID: 4404041341987112788
+      spriteID: 4a9c406876a39134ab40965b1f66a331
+      internalID: 559721144
       vertices: []
       indices: 
       edges: []
@@ -193,19 +181,19 @@ TextureImporter:
       name: Rocket-Sheet_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 28
-        height: 32
+        x: 64
+        y: 3
+        width: 31
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ccc60d452ff99e1a0800000000000000
-      internalID: -6779711900875723572
+      spriteID: 611d2487b7e45b246b8894bc35cd6cdc
+      internalID: 49159416
       vertices: []
       indices: 
       edges: []
@@ -214,19 +202,19 @@ TextureImporter:
       name: Rocket-Sheet_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 0
-        width: 28
-        height: 32
+        x: 96
+        y: 3
+        width: 31
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8371aa92e45555f0800000000000000
-      internalID: -768614829163187317
+      spriteID: 483eb53fc3f700f4584ecc9e9fa080d5
+      internalID: 1495728624
       vertices: []
       indices: 
       edges: []
@@ -234,7 +222,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -242,10 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rocket-Sheet_0: 5673416707919896668
-      Rocket-Sheet_1: 4404041341987112788
-      Rocket-Sheet_2: -6779711900875723572
-      Rocket-Sheet_3: -768614829163187317
+      Rocket-Sheet_0: -997586640
+      Rocket-Sheet_1: 559721144
+      Rocket-Sheet_2: 49159416
+      Rocket-Sheet_3: 1495728624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

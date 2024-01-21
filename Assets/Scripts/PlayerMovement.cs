@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float velocidadHorizontal = 3f;
-    public float velocidadVertical = 5f;
+    public float velocidadHorizontal = 0.0f;
+    public float velocidadVertical = 0.0f;
 
     void Update()
     {
