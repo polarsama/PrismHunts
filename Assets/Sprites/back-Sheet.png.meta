@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c7b68a7ee19bed4a8fa2b85e0974ded
+guid: b921ddcb7fdc54f4a91d57cf0677acd2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,12 +136,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rocket-SheetSolo_0
+      name: back-Sheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3
-        width: 25
+        x: 0
+        y: 2
+        width: 32
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,8 +150,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b96adc24a4f52d40a5e72e8e95501e9
-      internalID: 644345172
+      spriteID: 2cee11e6d22e90b41888c5a8f78effa2
+      internalID: 599550333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0a63a2e2ba2a3459a299cf786783fe
+      internalID: 521247472
       vertices: []
       indices: 
       edges: []
@@ -167,7 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rocket-SheetSolo_0: 644345172
+      back-Sheet_0: 599550333
+      back-Sheet_1: 521247472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
