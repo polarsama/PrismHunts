@@ -377,9 +377,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidePrefab: {fileID: 1399950489}
-  velocidadAsteroides: 2
-  tiempoEntreSets: 15
-  cantidadMinima: 1
+  velocidadAsteroides: 1
+  tiempoEntreSets: 30
+  cantidadMinima: 0
   cantidadMaxima: 1
 --- !u!1 &1680950127
 GameObject:
