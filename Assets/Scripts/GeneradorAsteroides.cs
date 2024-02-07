@@ -6,33 +6,15 @@ public class GeneradorAsteroides : MonoBehaviour
 {
     public GameObject asteroidePrefab;
     public float velocidadAsteroides = 0f;
-    public float frecuenciaGeneracion = 0f;
+    public float tiempoEntreSets = 15f;
     public int cantidadMinima = 0;
     public int cantidadMaxima = 0;
 
     void Start()
     {
         // Iniciar la generación de asteroides
-        //InvokeRepeating("GenerarAsteroide", 0f, frecuenciaGeneracion);
-
-        // Iniciar la generación de asteroides
-        InvokeRepeating("GenerarAsteroidesAleatorios", 0f, frecuenciaGeneracion);
+        Invoke("GenerarAsteroidesAleatorios", 0f);
     }
-
-
-    //void GenerarAsteroide()
-    //{
-    //    // Generar asteroides en posiciones aleatorias en la parte superior de la pantalla
-    //    float xPosition = Random.Range(-8f, 8f);
-    //    Vector2 spawnPosition = new Vector2(xPosition, 6f);
-
-    //    // Crear un nuevo asteroide
-    //    GameObject asteroide = Instantiate(asteroidePrefab, spawnPosition, Quaternion.identity);
-
-    //    // Aplicar velocidad al asteroide
-    //    Rigidbody2D rb = asteroide.GetComponent<Rigidbody2D>();
-    //    rb.velocity = Vector2.down * velocidadAsteroides;
-    //}
 
     void GenerarAsteroidesAleatorios()
     {
@@ -51,5 +33,8 @@ public class GeneradorAsteroides : MonoBehaviour
             Rigidbody2D rb = asteroide.GetComponent<Rigidbody2D>();
             rb.velocity = Vector2.down * velocidadAsteroides;
         }
+
+        // Programar la siguiente generación de asteroides después de un tiempo
+        Invoke("GenerarAsteroidesAleatorios", tiempoEntreSets);
     }
 }
