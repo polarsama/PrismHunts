@@ -210,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.31, z: -2}
+  m_LocalPosition: {x: -0.94, y: 0.31, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1680950129}
-  smoothSpeed: 1
+  smoothSpeed: 2
   offset: {x: 0, y: 0, z: -3}
 --- !u!1 &1399950489
 GameObject:
@@ -395,8 +395,8 @@ MonoBehaviour:
   asteroidePrefab: {fileID: 1399950489}
   velocidadAsteroides: 1
   tiempoEntreSets: 30
-  cantidadMinima: 1
-  cantidadMaxima: 2
+  cantidadMinima: 0
+  cantidadMaxima: 1
 --- !u!1 &1680950127
 GameObject:
   m_ObjectHideFlags: 0
