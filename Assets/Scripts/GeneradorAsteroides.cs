@@ -43,10 +43,10 @@ using UnityEngine;
 public class GeneradorAsteroides : MonoBehaviour
 {
     public GameObject asteroidePrefab;
-    public float velocidadAsteroides = 2f;
-    public float tiempoEntreSets = 15f;
-    public int cantidadMinima = 1;
-    public int cantidadMaxima = 3;
+    public float velocidadAsteroides = 0f;
+    public float tiempoEntreSets = 0f;
+    public int cantidadMinima = 0;
+    public int cantidadMaxima = 0;
 
     private bool generacionActiva = true;
 
